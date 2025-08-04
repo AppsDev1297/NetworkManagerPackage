@@ -24,7 +24,7 @@ import Foundation
  Used to remove a resource from the server. Example: deleting a specific product or user account.
  */
 
-public enum HTTPMethod: String {
+public enum HTTPMethod: String, Sendable {
     case get = "GET"
     case post = "POST"
     case put = "PUT"
