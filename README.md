@@ -17,7 +17,7 @@ A lightweight Swift Package for handling API requests.
 2. Go to `File > Add Packages`
 3. Enter the repository URL:
 
-https://github.com/your-username/NetworkManager.git
+https://github.com/AppsDev1297/NetworkManagerPackage
 
 4. Select the version/range and add the package.
 
@@ -27,7 +27,7 @@ If you’re using `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/NetworkManager.git", from: "1.0.0")
+    .package(url: "https://github.com/AppsDev1297/NetworkManagerPackage", from: "1.0.0")
 ]
 ```
 
