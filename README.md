@@ -134,8 +134,6 @@ class NetworkManagerHelper {
                 print("NO INTERNET CONNECTION")
             case .cancelled:
                 print("REQUEST IS CANCELLED")
-            default:
-                print("DEFAULT")
             }
         } else {
             print("UNKNOWN")
