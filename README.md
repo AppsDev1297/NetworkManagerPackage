@@ -2,13 +2,34 @@
 
 A lightweight Swift Package for handling API requests.
 
-## 📦 Installation
+## 🚀 Features
 
-Add the following to your `Package.swift` dependencies:
+- Simple API Client interface
+- Support for GET, POST, PUT, DELETE
+- Handles JSON encoding/decoding
+- Configurable headers and parameters
+- Lightweight and dependency-free
+
+## 📦 Installation (Swift Package Manager)
+
+### Xcode
+1. Open your Xcode project
+2. Go to `File > Add Packages`
+3. Enter the repository URL:
+
+https://github.com/your-username/NetworkManager.git
+
+4. Select the version/range and add the package.
+
+### Manual (Package.swift)
+
+If you’re using `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/yourusername/NetworkManager.git", from: "1.0.0")
-
+dependencies: [
+    .package(url: "https://github.com/yourusername/NetworkManager.git", from: "1.0.0")
+]
+```
 
 ## 🚀 Helper Class
 
@@ -122,6 +143,7 @@ class NetworkManagerHelper {
     }
     
 }
+```
 
 ## 🚀 Usage Class
 
